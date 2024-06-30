@@ -1,5 +1,5 @@
 # 이름
-name: push-workflow
+name: push-workflow part 1
 # 트리거
 on: push
 # 작업
