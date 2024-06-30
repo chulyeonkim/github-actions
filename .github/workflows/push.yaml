@@ -1,0 +1,11 @@
+# 이름
+name: push-workflow
+# 트리거
+on: push
+# 작업
+jobs:
+  push-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step1
+        run: echo hello world
