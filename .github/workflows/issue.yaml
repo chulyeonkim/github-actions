@@ -1,0 +1,14 @@
+name: issue workflow
+on:
+  issues:
+    types: [opened]
+jobs:
+  issue-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step1
+        run: echo hello world
+      - name: Step2
+        run: |
+          echo hello world
+          echo github action
