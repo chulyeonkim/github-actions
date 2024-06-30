@@ -2,6 +2,7 @@ name: pull-request-workflow
 # 트리거
 on:
   pull_request:
+    # 오픈일 때만 트리거
     types: [opened]
 
 jobs:
