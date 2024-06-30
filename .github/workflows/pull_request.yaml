@@ -1,4 +1,5 @@
 name: pull-request-workflow
+# 트리거
 on: pull_request
 
 jobs:
