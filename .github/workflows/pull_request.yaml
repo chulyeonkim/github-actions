@@ -1,6 +1,8 @@
 name: pull-request-workflow
 # 트리거
-on: pull_request
+on:
+  pull_request:
+    types: [opened]
 
 jobs:
   pull-request-job:
