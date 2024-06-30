@@ -1,7 +1,7 @@
 name: pull-request-workflow
 # 트리거
 on: pull_request
-
+# 작업
 jobs:
   pull-request-job:
     runs-on: ubuntu-latest
